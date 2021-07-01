@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>shoppy</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="title1">shoppy
+            <div class="title">
+                ON
+            </div>
+        </div>
+        <div class="icon">
+
+            <i class=" icon2 fa fa-shopping-bag" onclick="openA()" aria-hidden="true"></i>
+        </div>
+
+    </div>
+    <div class="header1"></div>
+    <div class="zindex0">
+        <div class="zindex">
+            <div class="cartheader">
+
+                <div class="carttitle">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    your cart
+
+                </div>
+                <div class="carttitle1">
+                    <i class="fa fa-times zero" onclick="openb()"></i>
+                </div>
+
+            </div>
+
+
+            <div class="addscr">
+
+            </div>
+
+
+        </div>
+        <div class="buts">
+            <button type="button" class="catbtn" onclick="removeall()">remove all</button>
+            <a href="https://www.paypal.com/ge/signin">
+                <button type="button" class="catbtn">buy</button>
+            </a>
+            <div class="total">total:</div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="flex">
+        <div class="leftside">
+
+            <a class="leftmenu" onclick="searchcat()">jewelary</a>
+            <a class="leftmenu" onclick="searchelec()">electronics</a>
+            <a class="leftmenu" onclick="searchmen()">men's <br> cloath</a>
+            <a class="leftmenu" onclick="searchwom()">women's <br>cloath</a>
+
+        </div>
+        <div class="page">
+            <div class="jew">
+
+            </div>
+            <div class="elec"></div>
+            <div class="men"></div>
+            <div class="women"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

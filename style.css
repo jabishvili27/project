@@ -1,0 +1,356 @@
+.header {
+
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    min-height: 50px;
+    height: 8vh;
+    color: white;
+}
+
+.header1 {
+
+    height: 0.5vh;
+    background-color: red;
+}
+
+.title1 {
+    display: flex;
+    font-size: 30px;
+}
+
+.title {
+    color: red;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.icon {
+    margin-top: 3vh;
+
+}
+
+
+
+.icon2 {
+    cursor: pointer;
+
+}
+
+.icon2:hover {
+    color: red;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+
+    min-width: 200px;
+    min-height: 100vh;
+    height: auto;
+
+    background-color: rgb(0, 0, 0);
+}
+
+.leftmenu {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    color: white;
+}
+
+.flex {
+    background-image: url(./22.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: bottom;
+    height: max-content;
+    background-size: cover;
+}
+
+.leftmenu:hover {
+    color: red;
+}
+
+.flex {
+    display: flex;
+
+
+}
+
+
+
+.jew {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.jew1 {
+    width: 230px;
+    height: 350px;
+    margin-left: 53px;
+}
+
+.jewpi {
+    cursor: pointer;
+    width: 230px;
+    height: 220px;
+    border-radius: 25px;
+
+}
+
+
+
+.elec {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.elec1 {
+    width: 230px;
+    height: 350px;
+    margin-left: 53px;
+}
+
+.elecpi {
+    width: 230px;
+    height: 220px;
+    border-radius: 20px;
+
+}
+
+.men {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.men1 {
+    width: 230px;
+    height: 350px;
+    margin-left: 53px;
+}
+
+.menpi {
+    width: 230px;
+    height: 220px;
+    border-radius: 30px;
+
+}
+
+
+.women {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.women1 {
+    width: 230px;
+    height: 350px;
+    margin-left: 53px;
+}
+
+.womenpi {
+    width: 230px;
+    height: 220px;
+    border-radius: 30px;
+
+}
+
+.btnall {
+    margin-right: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #ff5e00;
+    border-radius: 20px;
+    color: white;
+    border-inline: none;
+    cursor: pointer;
+
+}
+
+.btnall:hover {
+    width: 110px;
+    height: 40px;
+    color: black;
+    box-shadow: 10px 10px 50px rgba(202, 85, 6, 0.719);
+    ;
+}
+
+.btnalla {
+    width: 100px;
+    height: 30px;
+    background-color: #FC268A;
+    border-radius: 20px;
+    color: white;
+    border-inline: none;
+
+}
+
+.btnalla:hover {
+    width: 110px;
+    height: 40px;
+    color: black;
+    box-shadow: 5px 5px 2px 1px rgba(234, 0, 255, 0.4);
+    ;
+}
+
+.zindex0 {
+
+    align-items: center;
+    justify-content: flex-end;
+    width: 100vw;
+    display: none;
+
+
+
+}
+
+.zindex {
+    width: 50vw;
+    height: 100vh;
+    background-color: rgb(197, 125, 125);
+    position: fixed;
+    margin-top: 80vh;
+    border-radius: 20px;
+    z-index: 10;
+
+}
+
+.cartheader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carttitle {
+    width: 20vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.carttitle1 {
+    width: 7vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+
+    font-size: 30px;
+}
+
+.zero {
+
+    cursor: pointer;
+}
+
+.zero:hover {
+    color: red;
+}
+
+.addcat1 {
+    display: flex;
+    margin-left: 30px;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0);
+    margin-top: 5px;
+    color: white;
+    border-radius: 20px;
+
+}
+
+.addscr {
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+.addcatpi {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+
+.carttxt {
+    width: 30px;
+}
+
+.buts {
+
+    position: fixed;
+    margin-top: 55%;
+    z-index: 11;
+
+
+}
+
+.catbtn1 {
+    height: 30px;
+    width: 50px;
+    margin-top: 5px;
+
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: rgb(255, 115, 0);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.catbtn2 {
+    height: 30px;
+    width: 50px;
+    margin-top: 5px;
+
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: rgb(255, 115, 0);
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+.remove1 {
+    height: 30px;
+    width: 100px;
+    margin-top: 5px;
+
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: rgb(255, 102, 0);
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+.carttxt {
+    font-size: x-large;
+    margin-top: 4px;
+}
+
+.catbtn {
+    height: 35px;
+
+    margin-top: 500px;
+    margin-right: 2vw;
+
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: rgb(255, 115, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.total {
+    font-size: x-large;
+    margin-top: 4px;
+    color: white;
+    margin-bottom: 40px;
+    margin-right: 3vw;
+}

@@ -1,0 +1,47 @@
+body {
+    background-image: url(./11.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.button {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100vh;
+
+
+
+
+
+}
+
+.btn {
+
+    width: 250px;
+    height: 50px;
+    border-style: none;
+    border-radius: 50px;
+    margin-bottom: 9vh;
+    margin-left: 16px;
+    cursor: pointer;
+    background-color: white;
+    font-size: 30px;
+    margin-bottom: 200px;
+
+
+}
+
+.btn:hover {
+    background-color: rgb(255, 228, 179);
+    box-shadow: 10px 1px 100px yellow;
+}
+
+.btn:active {
+    background-color: rgb(204, 44, 44);
+
+}
